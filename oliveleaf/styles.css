@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#708238;
+    --secondary-color:#F5F2E7;
+    --text-color:#333333;
+    --accent-color1:#2E4E1E;
+    --accent-color2:#C9A227;
+
+
+
+
+}
+
+.upper-header{
+    background-color:var(--primary-color);
+    height:6dvh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    color:whitesmoke;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    border:5px solid red;
+    height:minmax(100dvh, auto);
+    overflow-x: hidden;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color:var(--secondary-color);
+    font-weight:900;
+
+}
+
+
+.logo {
+    background-image: url(olive.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:60px;
+    width:165px;
+    font-size: 1.5rem;
+
+}
+
+.hamburger-menu {
+    font-size: 1.8rem;
+    cursor: pointer;
+    color:var(--primary-color)
+}
+
+nav.hidden {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: var(--primary-color);
+    padding: 10px 0;
+}
+
+nav ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.landing-wrapper{
+    padding:10px;
+    height: 80dvh;
+    border:2px solid blue;
+}
+
+.landing-header{
+    margin:35px 0;
+    color:var(--accent-color1);
+    border: 2px solid purple;
+}
+
+.landing-header h1{
+    font-size:20px;
+}
+
+.landing-paragraph{
+    font-size:16px;
+    text-wrap-style:balance;
+    border: 2px solid purple;
+}
