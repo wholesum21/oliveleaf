@@ -46,12 +46,15 @@ header {
 
 
 .logo {
-    background-image: url(olive.jpeg);
+    background-image: url(logo_alt1.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    height:60px;
-    width:165px;
+    background-size:cover;
+    background-position-y:-22px;
+    height:50px;
+    width:159px;
     font-size: 1.5rem;
+    transform: scale(1.4);
+    /* border:1px solid black; */
 
 }
 
@@ -86,17 +89,32 @@ nav ul li a {
     padding:10px;
     height: 80dvh;
     border:2px solid blue;
+    
+}
+
+.landing-img{
+    background-image:url(leaf.png);
+    opacity:10%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:0;
+    border:2px solid green;
+    height:500px;
+    width:500px;
+    left: 0px;
+    top:280px;
+    transform: rotateY('120deg');
+    position:fixed;
+    z-index:-1;
 }
 
 .landing-header{
-    margin:35px 0;
+    margin:20px 0;
     color:var(--accent-color1);
     border: 2px solid purple;
-}
-
-.landing-header h1{
     font-size:20px;
 }
+
 
 .landing-paragraph{
     font-size:16px;
