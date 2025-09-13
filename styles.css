@@ -162,16 +162,16 @@ nav ul li a {
     padding-bottom:5px;
 }
 
+/* 
 .service-header::after{
     content: "";
     display:block;
     background-color: var(--accent-color1);
     height:3px;
     width:200px;
-    position:relative;
+    position:absolute;
     top:10px; 
     right:-80px
 }
 
-
-
+ */
