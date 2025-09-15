@@ -153,6 +153,7 @@ nav ul li a {
     padding:10px;
     border:5px solid yellow;
     height:minmax(80dvh) auto;
+    background-color: rgb(240, 240, 240);
 }
 
 .service-header{
@@ -199,6 +200,29 @@ nav ul li a {
     color:var(--text-color);
     font-weight:500;
     font-size:16px;
+}
+
+.call-img{
+    background-image:url(call-img.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:15px;
+    width:15px;
+    margin-right:8px;
+    display:inline-block;
+    transform: translateY(3px);
+}
+.email-img{
+    background-image:url(email-img.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:15px;
+    width:15px;
+    margin-right:8px;
+    display:inline-block;
+    transform: translateY(3px);
 }
 
 .corp-img{
