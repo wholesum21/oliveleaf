@@ -152,7 +152,7 @@ nav ul li a {
 .service-wrapper{
     padding:10px;
     border:5px solid yellow;
-    height: 80dvh;
+    height:minmax(80dvh) auto;
 }
 
 .service-header{
@@ -175,3 +175,84 @@ nav ul li a {
 }
 
  */
+
+ .service{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin: 25px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-bottom:4px solid var(--accent-color2);
+}
+
+.service h3{
+    color:var(--accent-color1);
+    margin-bottom:10px;
+    font-size:23px;
+}
+
+.service p{
+    color:var(--text-color);
+    font-weight:500;
+    font-size:16px;
+}
+
+.corp-img{
+    background-image:url(corp-img.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:80px;
+    width:100px;
+    margin-bottom:10px;
+}
+
+.youth-img{
+
+    background-image:url(youth-img.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:80px;
+    width:80px;
+    margin-bottom:10px;
+}
+
+.digi-img{
+    background-image:url(digi-img.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:80px;
+    width:80px;
+    margin-bottom:10px;
+}
+
+.soft-img{
+    background-image:url(soft-img.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:80px;
+    width:80px;
+    margin-bottom:10px;
+}
+
+.fin-img{
+    background-image:url(fin-img.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:80px;
+    width:80px;
+    margin-bottom:10px;
+}
+
+
+
+    
+
