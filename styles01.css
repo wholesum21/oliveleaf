@@ -25,7 +25,7 @@ html, body {
 body {
     font-family: Arial, sans-serif;
     color: #333;
-    border:5px solid red;
+/*     border:5px solid red; */
     height:minmax(100dvh, auto);
     overflow: hidden;
 }
@@ -36,14 +36,14 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color:var(--secondary-color);
+/*     background-color:var(--primary-color); */
     font-weight:900;
 
 }
 
 
 .logo {
-    background-image: url(logo_alt1.png);
+    background-image: url(logoB-W.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position-y:-22px;
@@ -60,7 +60,7 @@ header{
 .hamburger-menu {
     font-size: 1.8rem;
     cursor: pointer;
-    color:var(--primary-color)
+    color:white;
 }
 
 nav.hidden {
@@ -92,7 +92,7 @@ nav ul li a {
     background-image: url(landing_img1.jpg);
     background-size: cover;
     background-position: center;
-    border:2px solid blue;
+/*     border:2px solid blue; */
 }
 
 video {
@@ -103,6 +103,18 @@ video {
       height: 100%;
       object-fit: cover;
       z-index: -1;
+}
+
+.landing-text{
+    margin-top:40px;
+    color: white;
+    text-align: center;
+/*     background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 10px;
+}
+
+a{
+    color:white;
 }
 
 .footer{
