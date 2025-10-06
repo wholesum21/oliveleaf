@@ -38,6 +38,7 @@ header{
     padding: 15px;
 /*     background-color:var(--primary-color); */
     font-weight:900;
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
 
