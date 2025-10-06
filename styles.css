@@ -121,6 +121,8 @@ a{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 12px;
+    font-size: 15px;
     color:whitesmoke;
+    margin: 0 10px;
+    border-radius:8px;
 }
