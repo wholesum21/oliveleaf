@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="upper-header">
+        <div><div class="call-img"></div>078 263 9234</div>
+        <div><div class="email-img"></div>info@oliveleafinvestments.co.za</div>
+    </div>
+
+    <header>
+        <div class="logo"></div>
+        <div class="hamburger-menu" onclick="toggleMenu()">&#9776;</div>
+    </header>
+
+    <nav id="mobile-nav" class="hidden">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index01.html">Index-2</a></li>
+            <li><a href="index02.html">Index-3</a></li>
+            <li><a href="index03.html">index-4</a></li>
+            
+        </ul>
+    </nav>
+
+
+    <div class="landing-wrapper">
+
+        <div class="landing-img">
+
+        </div>
+
+
+        <div class="landing-header">
+            <h1>Growing Skills<br> Building Futures</h1>
+
+        </div>
+
+
+    <div class="landing-paragraph">
+            <p>Olive Leaf Investment bridges the gap between education and work, equipping people with skills and opportunities to grow their careers and succeed long term</p>
+
+        </div>
+
+
+        <div class="cta">
+            <a href="">Get In Touch</a>
+        </div>
+    </div>
+
+    <div class="service-wrapper">
+
+        <div class="service-header">
+            <h1>What Do We Do?</h1>
+        </div>
+
+        <div class="service">
+            <div class="corp-img"></div>
+            <h3>Corporate Training</h3>
+            <p>Workshops for businesses on financial strategy and growth.</p>
+        </div>
+        <div class="service">
+            <div class="youth-img"></div>
+            <h3>Youth Learnerships</h3>
+            <p>Accredited training programs for young professionals.</p>
+        </div>
+        <div class="service">
+            <div class="digi-img"></div>
+            <h3>Digital Skills Training</h3>
+            <p>Courses in IT, data analysis, and fintech tools.</p>
+        </div>
+
+        <div class="service">
+            <div class="soft-img"></div>
+            <h3>Soft Skills Development</h3>
+            <p>Leadership, communication, and workplace readiness.</p>
+        </div> 
+        
+        <div class="service">
+            <div class="fin-img"></div>
+            <h3>Financial Literacy Programs</h3>
+            <p>Teaching individuals how to budget, save, and invest.</p>
+        </div>
+        
+        
+        
+
+
+    </div>
+    
+
+
+
+
+
+
+
+
+    
+
+<script>
+
+    function toggleMenu() {
+    const nav = document.getElementById("mobile-nav");
+    nav.classList.toggle("hidden");
+}
+
+
+function toggleTopics(button) {
+    const topics = button.nextElementSibling;
+    topics.classList.toggle("hidden");
+    button.textContent = topics.classList.contains("hidden") ? "Expand" : "Collapse";
+}
+
+
+</script>
+</body>
+</html>
