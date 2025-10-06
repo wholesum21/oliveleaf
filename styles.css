@@ -105,10 +105,12 @@ video {
 
 .landing-text{
     margin-top:40px;
+    padding: 10px;
     color: white;
     text-align: center;
 /*     background-color: rgba(0, 0, 0, 0.5); */
     border-radius: 10px;
+    text-wrap: balance;
 }
 
 a{
