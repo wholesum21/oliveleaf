@@ -111,6 +111,8 @@ video {
 /*     background-color: rgba(0, 0, 0, 0.5); */
     border-radius: 10px;
     text-wrap: balance;
+    font-weight:900;
+    font-size: 2.5rem;
 }
 
 a{
