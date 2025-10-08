@@ -36,7 +36,7 @@
 
 
 
-        <video width="100%" height="100%" class="video" autoplay muted loop>
+        <video width="100%" height="100%" class="video" autoplay muted loop playsinline>
         <source src="earth02.mp4" type="video/mp4">
         <source src="video.webm" type="video/webm">
         Your browser does not support the video tag.
@@ -70,6 +70,25 @@ function toggleTopics(button) {
     topics.classList.toggle("hidden");
     button.textContent = topics.classList.contains("hidden") ? "Expand" : "Collapse";
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const video = document.querySelector("video");
+  
+
+  const playPromise = video.play();
+
+  if (playPromise !== undefined) {
+    playPromise
+      .then(() => {
+ 
+      })
+      .catch(() => {
+
+        video.muted = true;
+        video.play();
+      });
+  }
+});
 
 </script>
 </body>
